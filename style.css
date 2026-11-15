@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; color: #172b35; background: #eef3f1; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 48px 24px; }
+.profile { width: min(100%, 820px); padding: 56px; background: #fff; border: 1px solid #d8e4de; border-radius: 24px; box-shadow: 0 20px 60px #173f2c0a; }
+.eyebrow { margin: 0 0 22px; color: #24764f; letter-spacing: 2px; font-size: 12px; font-weight: 700; }
+h1 { margin: 0; font-size: clamp(32px, 5vw, 48px); line-height: 1.16; letter-spacing: -1.6px; }
+.intro { max-width: 580px; margin: 22px 0 30px; color: #586a62; font-size: 17px; line-height: 1.7; }
+.student { display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 24px; border-radius: 12px; background: #eef6f1; }
+.student div { display: grid; gap: 8px; }
+.student span { font-size: 12px; color: #526a5c; }
+.student strong { font-size: 18px; }
+.workflow { margin: 30px 0; }
+h2 { font-size: 17px; margin: 0 0 14px; }
+ol { margin: 0; padding-left: 24px; color: #52645b; line-height: 1.9; }
+.repo-link { display: inline-flex; align-items: center; gap: 20px; padding: 14px 20px; border-radius: 8px; background: #236b49; color: #fff; font-size: 14px; font-weight: 600; text-decoration: none; }
+.repo-link:hover { background: #185236; }
+.repo-link:focus-visible { outline: 3px solid #dfac3e; outline-offset: 4px; }
+footer { margin-top: 32px; padding-top: 18px; border-top: 1px solid #e1e9e5; color: #74847b; font-size: 12px; }
+@media (max-width: 560px) { body { padding: 20px 12px; } .profile { padding: 28px 22px; border-radius: 16px; } .student { flex-direction: column; padding: 20px; } }
